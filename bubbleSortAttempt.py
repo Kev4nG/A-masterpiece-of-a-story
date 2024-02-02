@@ -1,5 +1,6 @@
 import random
-numberList = [random.randint(-100, 100) for _ in range(100)]
+
+numberList = [random.randint(1, 50) for _ in range(10)]
 def sortList(nums):
     for j in range(len(nums)):
         for i in range(len(nums)-1):
@@ -16,8 +17,3 @@ def sortList(nums):
     return nums
                 
 print(sortList(numberList))
-            
-        
-        
-    
-    
